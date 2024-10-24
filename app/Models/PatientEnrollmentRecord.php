@@ -1,0 +1,87 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class PatientEnrollmentRecord extends Model
+{
+    use HasFactory;
+    protected $table = 't_patient_enrollment_record';
+    protected $fillable = [
+
+        'per_last_name',
+        'per_first_name',
+        'per_middle_name',
+        'per_extension',
+        'per_region',
+        'per_maiden_name',
+        'per_mothers_name',
+        'per_complete_address',
+        'per_mobile_no',
+        'per_birth_date',
+        'per_birth_place',
+        'per_age',
+        'per_gender',
+        'per_civil',
+        'per_family',
+        'per_blood_type',
+        'per_religion',
+        'per_phic_member',
+        'per_philhealth_member_type',
+        'per_philhealth_number',
+        'per_philhealth_membership',
+        'per_konsulta_registered',
+        'per_konsulta_facility',
+        'per_employment_status',
+        'per_dswd_nhts',
+        'per_4ps_member',
+        'per_facility_household_no',
+        'per_household_no',
+        'per_educational_attainment',
+        'per_bp',
+        'per_hr',
+        'per_rr',
+        'per_pulse_rate',
+        'per_temp',
+        'per_height',
+        'per_weight',
+        'per_ox_sat',
+        'per_administered_by',
+        'per_last_name_duplicate',
+        'per_first_name_duplicate',
+        'per_suffix',
+        'per_middle_name_duplicate',
+        'per_relationship',
+        'per_date_of_birth',
+        'per_postal_code',
+        'per_regions',
+        'per_province',
+        'per_city_or_municipality',
+        'per_barangay',
+        'per_family_history',
+        'per_past_medical_history',
+        'per_past_surgical_history',
+        'per_children_immunized',
+        'per_pregnant_tetanus_toxoid',
+        'per_covid_vaccine_5_years_above',
+        'per_smoking',
+        'per_sexually_active',
+        'per_alcohol',
+        'per_illicit_drugs',
+        'per_menarche',
+        'per_last_menstrual_period',
+        'per_onset_sexual_intercourse',
+        'per_menopause',
+        'per_family_planning_method',
+        'per_gravity',
+        'per_parity',
+        'per_type_of_delivery',
+        'per_no_of_full_term',
+        'per_no_of_premature',
+        'per_no_of_abortion',
+        'per_no_of_living_children',
+
+    ];
+}
